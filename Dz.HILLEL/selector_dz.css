@@ -1,0 +1,24 @@
+h1{
+    color: yellow;
+}
+#red{
+    color: rgb(204, 18, 18);
+}
+.green{
+    color: green;
+}
+.purpule{
+    color:purple;
+}
+.blue{
+    color: blue;
+}
+b{
+    color: blueviolet;
+}
+i{
+    color: yellowgreen;
+}
+body{
+    background-color:#9296A5;
+}

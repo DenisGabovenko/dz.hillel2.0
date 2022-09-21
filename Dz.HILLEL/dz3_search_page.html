@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Page</title>
+    <link href="search_page.css" rel="stylesheet"/>
+</head>
+<body>
+    <form action="https://fom.in.ua/echo" method="post">
+        <h2>Конфигурация поиска</h2> 
+        <h4>Страна производителя</h4>
+    <li><input type="text" name="strana:" placeholder=""></li>
+        <h4>Марка</h4>
+    <li><input type="text" name="marka:" ></li> 
+    <h4>Цена</h4> 
+    <li><input type="range" name="Цена"></li>
+        <h4>Тип кузова</h4>
+            <div class="kuzov">
+    <li><input type="radio" name="01">Седан</li>
+    <li><input type="radio" name="02">универсал</li>
+    <li><input type="radio" name="03">Хетч-бэк</li>
+     <li><input type="radio" name="04">Кроссовер</li>
+     <li><input type="radio" name="05">Купе</li>
+     <li><input type="radio" name="06">Кабриолет</li>
+     <li><input type="radio" name="07">Пик-ап</li>
+     <li><input type="radio" name="08">Лифт-бэк</li>
+     <li><input type="radio" name="09">Грузовое</li>
+            </div>
+            <h4>Год выпуска</h4>
+            <h4>От-До</h4>
+    <li><input type="range" name=""></li>
+        <h4>Состояние</h4>
+        <div class="sostoyanie">
+    <li><input type="radio" name="bita">Новая</li>
+    <li><input type="radio" name="bita">Б/У</li>
+    <li><input type="radio" name="krashena">После ДТП</li>
+    <li><input type="radio" name="utoplennik">Не на ходу</li>
+</div>
+        <h4>Цвет</h4>
+     <li><input type="color" name="color"></li>
+        <h4>Доп опции</h4>
+        <div class="komfort">
+    <li><input type="radio" name="klimat_kontrol">Климат контроль</li>
+    <li><input type="radio" name="salon_koja">Кожанный салон</li>
+    <li><input type="radio" name="luk">Люк</li>
+    <li><input type="radio" name="electro_packet">Електро пакет</li>
+    <li><input type="radio" name="parktronik">Парктроник</li>
+    <li><input type="radio" name="camera_zadnego_hoda">Камера заднего хода</li>
+</div>
+        </ul>
+        <input type="submit">
+    </form>
+</body>
+</html>
